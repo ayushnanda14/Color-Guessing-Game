@@ -85,7 +85,7 @@ function reset(){
 			squares[i].style.display = "none";
 	}
 	colorDisplay.textContent = pickedColor;
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "#016064";
 	messageDisplay.textContent = "";
 	newColors.textContent = "New Colors";
 }
@@ -119,22 +119,3 @@ function randomColor(){
 	return "rgb("+red+", "+green+", "+blue+")"
 
 }
-
-// easyButton.addEventListener("click", function(){
-// 	hardButton.classList.remove("selected");
-// 	easyButton.classList.add("selected");
-// 	// colorsLength = 3;
-// 	reset(3);
-// 	for(i=3;i<6;i++){
-// 		squares[i].style.backgroundColor = "#232323";
-// 	}
-
-// });
-
-// hardButton.addEventListener("click", function(){
-// 	easyButton.classList.remove("selected");
-// 	hardButton.classList.add("selected");
-// 	// colorsLength = 6;
-// 	reset(6);
-
-// });
