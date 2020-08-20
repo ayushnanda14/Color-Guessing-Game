@@ -1,2 +1,2 @@
 # Color-Game-Project
-A project made using the holy trinity - Course Project
+A front end project made using the holy trinity- Course Project
